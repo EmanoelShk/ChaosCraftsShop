@@ -1,0 +1,16 @@
+﻿<div class="col">
+    <div class="card product-card">
+        <img src="@Product?.ImageThumbnailUrl" class="card-img-top" alt="@Product?.Name">
+        <div class="card-body product-button">
+
+            <div class="d-flex justify-content-between mt-2">
+                <h2 class="text-start">
+                    @Product?.Name
+                </h2>
+                <h5 class="text-nowrap">
+                    @Product?.Price.ToString("c")
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>
